@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 22px;
+  font-family: "Roboto";
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 900px;
+}
+
+.container {
+  box-sizing: content-box;
+  width: 940px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+}
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 10px 0;
+}
+
+* + p,
+* + ul,
+* + ol,
+* + figure {
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+a,
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover,
+.link:hover {
+  text-decoration: none;
+  color: #00e0d0 !important;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+.image-border {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.image-border:hover {
+  border-color: #00e0d0;
+}
+
+.logo {
+  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.logo-element {
+  display: inline-block;
+  position: relative;
+}
+
+.logo-item {
+  height: 50px;
+  width: 44px;
+  position: absolute;
+  top: -10px;
+}
+
+.glider-next,
+.glider-prev {
+  top: 45%;
+  color: rgb(187, 177, 177);
+  margin: 0 -20px;
+}

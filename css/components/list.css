@@ -1,0 +1,38 @@
+.section-list {
+  list-style-type: none;
+  padding: 0;
+  line-height: 26px;
+}
+
+.section-list li {
+  margin-bottom: 10px;
+  position: relative;
+  padding: 0 30px;
+}
+
+.list-social {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-social li {
+  margin-right: 2px;
+}
+
+.list-social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background-color: #3a454d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.list-social a:hover {
+  background: black;
+}

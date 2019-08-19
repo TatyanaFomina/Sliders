@@ -1,0 +1,11 @@
+.nav {
+  margin: 0 -10px;
+}
+
+.nav-item {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  padding: 0 10px;
+}

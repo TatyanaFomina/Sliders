@@ -1,0 +1,429 @@
+.section {
+  position: relative;
+  padding: 70px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  margin: 0;
+}
+
+.section-description {
+  margin: 0;
+}
+
+.section-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+  margin: 0;
+}
+
+.section-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-dark .section-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+  opacity: 0.85;
+}
+
+.section-dark .section-foreground {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-line::after {
+  content: " ";
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+}
+
+
+/* <--section-hero--> */
+
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  line-height: 30px;
+}
+
+.section-hero {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.section-hero .section-body {
+  width: 771px;
+  margin: 0 auto;
+}
+
+.section-hero .section-body {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 0;
+}
+
+.section-hero .section-title {
+  letter-spacing: 0.32px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.section-hero .section-description {
+  margin:30px 0 50px;
+}
+
+.section-hero .section-line::after {
+  background-color: #00e0d0;
+}
+
+
+/* <--section-story--> */
+
+.section-story .section-title {
+  margin-bottom: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.section-story .section-description {
+  margin-bottom: 20px;
+  color: #413d4b;
+  opacity: 0.75;
+  line-height: 22px;
+  letter-spacing: 0.42px;
+}
+
+.section-story .section-image {
+  width: 235px;
+  margin: 0;
+}
+
+.section-story .grid {
+  margin: 0 -10px;
+}
+
+/* <--section-video--> */
+
+.section-video {
+  padding: 150px 0;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 60px !important;
+}
+
+.section-video .section-title {
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-video .section-middle {
+  text-align: center;
+}
+
+.section-video .section-image {
+  margin-bottom: 34px;
+}
+
+.section-video .image-border {
+  height: 100px;
+  width: 100px;
+  border: 3px solid #ffffff;
+  padding: 25px;
+  position: relative;   
+}
+
+.section-video .icon-play {
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-video .section-image:hover {
+  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+
+}
+
+/* <--section-expertise--> */
+
+.section-expertise .section-top {
+  text-align: center;
+}
+
+.section-expertise .section-title {
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: #413d4b;
+}
+
+.section-expertise .section-subtitle {
+  opacity: 0.75;
+  color: #2f2d35;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+}
+
+.section-expertise .figure-image i {
+  margin: 0;
+  font-size: 42px;
+  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-expertise .figure-image {
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 39px;
+}
+
+.section-expertise .section-top {
+  margin-bottom: 80px;
+}
+
+.section-expertise .section-line::after {
+  height: 2px;
+  background-color: rgba(65, 61, 75, 0.3);
+}
+
+.section-expertise .section-middle {
+  width: 980px;
+}
+
+.section-expertise .grid {
+  margin: -1px;
+}
+
+.section-expertise .grid-item {
+  background-clip: content-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.42);
+  border-left: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.section-expertise .grid > * {
+  padding: 0;
+}
+
+
+/* <--section-team--> */
+
+.section-team .section-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-team .section-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.section-team .section-subtitle {
+  color: #f9f9f9;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+}
+
+.section-team .section-line::after {
+  height: 2px;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.section-team .section-description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-team .button  {
+  display: inline-block;
+  text-align: center;
+}
+
+.section-team .grid {
+  margin: 0 -10px;
+}
+
+/* <--section-works--> */
+
+.section-works .section-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.section-works .section-bottom {
+  margin-bottom: 30px;
+}
+
+.section-works .section-title {
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.section-works .section-link {
+  font-size: 14px;
+  color: #413d4b;
+  letter-spacing: 0.7px;
+  font-weight: 300;
+  margin-top: 70px;
+}
+
+.section-works .grid {
+  flex-basis: 100%;
+}
+
+.section-works .grid > * {
+  padding: 0;
+}
+
+/* <--section-quote--> */
+
+.section-quote {
+  text-align: center;
+}
+
+.section-quote .section-title {
+  font-size: 100px;
+  line-height: 22px;
+  letter-spacing: 3px;
+}
+
+.section-quote .section-description {
+  width: 770px;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  opacity: 0.85;
+  margin: 0 auto;
+}
+
+/* <--section-feedback--> */
+
+.section-feedback .section-title {
+  height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  margin-bottom: 40px;
+}
+
+.section-feedback .section-left {
+ padding: 0 30px;
+}
+.section-feedback .section-right {
+  padding: 0 30px;
+}
+.section-feedback .section-block{
+  display: flex;
+  padding: 0;
+}
+
+.section-feedback .grid {
+  flex-direction: column;
+}
+
+/* <--section-footer--> */
+
+
+.section-footer .logo-element {
+  margin-bottom: 34px;
+}
+
+.section-footer .section-title {
+  margin-bottom: 34px;
+}
+
+.section-footer .section-top {
+  margin-bottom: 70px;
+}
+
+.section-footer .section-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-footer .link-control {
+  display: flex;
+}
+
+.section-footer .figure-socials {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+.section-footer .image-border {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-footer .icon-list {
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+}
+
+.section-footer .grid {
+  margin: 0 -20px;
+}
+
+.section-footer .grid-item {
+  padding: 0  20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
